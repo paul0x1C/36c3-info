@@ -1,0 +1,40 @@
+.html {
+  background-color: rgb(13, 17, 29);
+  color: white;
+}
+
+.body {
+  padding: 20px;
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.link {
+  color: white;
+  display: block;
+  font-size: 25px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link--thin {
+  opacity: 0.7;
+  font-size: 16px;
+} 
