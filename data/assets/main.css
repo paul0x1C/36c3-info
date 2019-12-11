@@ -19,6 +19,7 @@
 
 .logo {
   width: 20%;
+  min-width: 220px;
 }
 
 .link {
