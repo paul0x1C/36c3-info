@@ -13,6 +13,7 @@
     <link rel="apple-touch-icon" href="/assets/icon.png">
     <meta name="theme-color" content="#0d111d">
     <meta property="og:image" content="/assets/icon.png">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body class="body">
     <main class="main">
@@ -37,5 +38,13 @@
             </a>
         </section>
     </main>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/assets/main.js')
+          .then(function() {
+                console.log('Service Worker Registered');
+          });
+      }
+    </script>
 </body>
 </html>

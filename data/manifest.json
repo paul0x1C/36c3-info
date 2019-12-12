@@ -1,0 +1,20 @@
+{
+  "name": "36c3.info",
+  "short_name": "36c3.info",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0d111d",
+  "theme_color": "#00BB31"
+}
