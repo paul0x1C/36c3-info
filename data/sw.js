@@ -1,11 +1,11 @@
 var cacheName = '36c3-info-pwa';
 var filesToCache = [
-  '/assets/GitHub-Mark-Light-32px.png',
-  '/assets/icon.png',
-  '/assets/logo.svg',
+  '/GitHub-Mark-Light-32px.png',
+  '/icon.png',
+  '/logo.svg',
   '/index.html',
-  '/assets/main.js',
-  '/assets/main.css',
+  '/main.js',
+  '/main.css',
   '/favicon.ico',
   '/'
 ];
